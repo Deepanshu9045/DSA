@@ -16,8 +16,8 @@ int noOfWays(int m, int n, int x) {
     }
     return dp[n][x];
 }
-int main() {
-    int m, n, x;
+int main() {            
+    int m, n, x;                
 
     cout << "Enter number of faces (m): ";
     cin >> m;

@@ -34,7 +34,7 @@ string minWindow(string s, string p) {
     if(minLen == INT_MAX) return "";
     return s.substr(start, minLen);
 }
-
+                
 int main(){
 
     string s, p;
