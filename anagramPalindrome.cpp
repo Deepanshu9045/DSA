@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 using namespace std;
+
 bool canFormPalindrome(string &s) {
     vector<int> freq(256, 0);
     for (char ch : s) {
